@@ -61,13 +61,25 @@ test2/
 - Visual indicators for active/inactive/disabled states
 - Previous button allows returning to Tab 1 without losing data
 
-### Submission Flow
-1. User fills Activity Details → validates → navigates to Location Details
-2. User fills Location Details → clicks Submit
-3. Complete form data logged to console
-4. Success modal appears
-5. Form state completely reset
-6. User returned to Activity Details tab
+Submission Flow
+
+Activity Details:
+User first fills in the Activity Details. After validation is successful, the user is navigated to the Location Details section.
+
+Location Details:
+User completes the Location Details and clicks on the Submit button.
+
+Data Logging:
+After submission, the complete form data is processed and logged to the console.
+
+Success Confirmation:
+A success modal is displayed to inform the user that the submission was successful.
+
+Form Reset:
+The entire form state is reset to its initial values.
+
+Navigation Reset:
+Finally, the user is automatically redirected back to the Activity Details tab to start a new entry if needed.
 
 ## 📦 Installation
 
